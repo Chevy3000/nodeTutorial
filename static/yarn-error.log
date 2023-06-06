@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\bhavi\AppData\Local\node\corepack\yarn\1.22.19\bin\yarn.js add requirestack
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32\kubo\;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\bhavi\AppData\Local\Microsoft\WindowsApps;C:\Users\bhavi\AppData\Roaming\Python\Python311\Scripts;C:\Users\bhavi\AppData\Local\Programs\Microsoft VS Code\bin;;c:\users\bhavi\.local\bin;C:\Users\bhavi\AppData\Roaming\npm;c:\users\bhavi\.local\bin;c:\users\bhavi\appdata\roaming\python\python311\scripts
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/requirestack: Not found
+      at params.callback [as _callback] (C:\Users\bhavi\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:66145:18)
+      at self.callback (C:\Users\bhavi\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (C:\Users\bhavi\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (C:\Users\bhavi\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
